@@ -307,11 +307,11 @@ function ChatArea() {
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const [selectedKnowledgeBase, setSelectedKnowledgeBase] = useState(
-    "your-knowledge-base-id",
+    "RUQ8W1QBC8",
   );
 
   const knowledgeBases: KnowledgeBase[] = [
-    { id: "RUQ8W1QBC8", name: "pulse" },
+    { id: "RUQ8W1QBC8", name: "pulse-aws-syd1" },
     // Add more knowledge bases as needed
   ];
 
@@ -595,7 +595,7 @@ function ChatArea() {
                 />
               </Avatar>
               <h2 className="text-2xl font-semibold mb-8">
-              Hey, I'm Ana! Your Pulse Copilot.
+              Hey, I'm ana! Your Pulse Copilot.
               </h2>
               <div className="space-y-4 text-sm">
                 <div className="flex items-center gap-3">
