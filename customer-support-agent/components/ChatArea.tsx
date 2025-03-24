@@ -242,7 +242,7 @@ const ConversationHeader: React.FC<ConversationHeaderProps> = ({
           </Avatar>
           <div>
             <h3 className="text-sm font-medium leading-none">Ana</h3>
-            <p className="text-sm text-muted-foreground">Customer support</p>
+            <p className="text-sm text-muted-foreground">Pulse copilot</p>
           </div>
         </>
       )}
@@ -595,21 +595,21 @@ function ChatArea() {
                 />
               </Avatar>
               <h2 className="text-2xl font-semibold mb-8">
-                Here&apos;s how I can help
+              Hey, I'm Ana! Your Pulse Copilot.
               </h2>
               <div className="space-y-4 text-sm">
                 <div className="flex items-center gap-3">
                   <HandHelping className="text-muted-foreground" />
                   <p className="text-muted-foreground">
                     Need guidance? I&apos;ll help navigate tasks using internal
-                    resources.
+                    Pulse resources.
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
                   <WandSparkles className="text-muted-foreground" />
                   <p className="text-muted-foreground">
                     I&apos;m a whiz at finding information! I can dig through
-                    your knowledge base.
+                    everything about Pulse.
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
