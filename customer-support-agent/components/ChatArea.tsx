@@ -233,7 +233,7 @@ const ConversationHeader: React.FC<ConversationHeaderProps> = ({
         <>
           <Avatar className="w-10 h-10 border">
             <AvatarImage
-              src="/pulse-round-dark.svg"
+              src="/pulse-round-gradient.svg"
               alt="AI Assistant Avatar"
               width={40}
               height={40}
@@ -588,7 +588,7 @@ function ChatArea() {
             <div className="flex flex-col items-center justify-center h-full animate-fade-in-up">
               <Avatar className="w-10 h-10 mb-4 border">
                 <AvatarImage
-                  src="/pulse-round-dark.svg"
+                  src="/pulse-round-gradient.svg"
                   alt="AI Assistant Avatar"
                   width={40}
                   height={40}
@@ -641,7 +641,7 @@ function ChatArea() {
                     {message.role === "assistant" && (
                       <Avatar className="w-8 h-8 mr-2 border">
                         <AvatarImage
-                          src="/pulse-round-dark.svg"
+                          src="/pulse-round-gradient.svg"
                           alt="AI Assistant Avatar"
                         />
                         <AvatarFallback>AI</AvatarFallback>
@@ -651,7 +651,7 @@ function ChatArea() {
                       className={`p-3 rounded-md text-sm max-w-[65%] ${
                         message.role === "user"
                           ? "bg-primary text-primary-foreground"
-                          : "bg-muted border"
+                          : "bg-muted" // Add or remove border here
                       }`}
                     >
                       <MessageContent
@@ -686,7 +686,7 @@ function ChatArea() {
             value={input}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
-            placeholder="Ask ana..."
+            placeholder="Ask Ana..."
             disabled={isLoading}
             className="resize-none min-h-[44px] bg-background  border-0 p-3 rounded-xl shadow-none focus-visible:ring-0"
             rows={1}
