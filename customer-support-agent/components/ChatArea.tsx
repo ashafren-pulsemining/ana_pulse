@@ -169,7 +169,7 @@ const MessageContent = ({
     return (
       <div className="flex items-center">
         <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-gray-900 mr-2" />
-        <span>Thinking...</span>
+        <span>Just a moment...</span>
       </div>
     );
   }
@@ -598,6 +598,7 @@ function ChatArea() {
               Hey, I'm ana! Your Pulse Copilot.
               </h2>
               <div className="space-y-4 text-sm">
+                {/*
                 <div className="flex items-center gap-3">
                   <HandHelping className="text-muted-foreground" />
                   <p className="text-muted-foreground">
@@ -619,6 +620,7 @@ function ChatArea() {
                     can assist you.
                   </p>
                 </div>
+                */}
               </div>
             </div>
           ) : (
