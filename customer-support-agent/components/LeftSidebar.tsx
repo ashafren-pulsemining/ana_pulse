@@ -97,7 +97,7 @@ const LeftSidebar: React.FC = () => {
       <Card className="h-full overflow-hidden">
         <CardHeader>
           <CardTitle className="text-sm font-medium leading-none">
-            Assistant Thinking
+            Assistant Thinking (Debug)
           </CardTitle>
         </CardHeader>
         <CardContent className="overflow-y-auto h-[calc(100%-45px)]">
