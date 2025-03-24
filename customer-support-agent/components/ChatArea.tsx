@@ -233,7 +233,7 @@ const ConversationHeader: React.FC<ConversationHeaderProps> = ({
         <>
           <Avatar className="w-10 h-10 border">
             <AvatarImage
-              src="/ant-logo.svg"
+              src="/pulse-round-dark.svg"
               alt="AI Assistant Avatar"
               width={40}
               height={40}
@@ -241,7 +241,7 @@ const ConversationHeader: React.FC<ConversationHeaderProps> = ({
             <AvatarFallback>AI</AvatarFallback>
           </Avatar>
           <div>
-            <h3 className="text-sm font-medium leading-none">AI Agent</h3>
+            <h3 className="text-sm font-medium leading-none">Pulse Ana</h3>
             <p className="text-sm text-muted-foreground">Customer support</p>
           </div>
         </>
@@ -588,7 +588,7 @@ function ChatArea() {
             <div className="flex flex-col items-center justify-center h-full animate-fade-in-up">
               <Avatar className="w-10 h-10 mb-4 border">
                 <AvatarImage
-                  src="/ant-logo.svg"
+                  src="/pulse-round-dark.svg"
                   alt="AI Assistant Avatar"
                   width={40}
                   height={40}
@@ -639,7 +639,7 @@ function ChatArea() {
                     {message.role === "assistant" && (
                       <Avatar className="w-8 h-8 mr-2 border">
                         <AvatarImage
-                          src="/ant-logo.svg"
+                          src="/pulse-round-dark.svg"
                           alt="AI Assistant Avatar"
                         />
                         <AvatarFallback>AI</AvatarFallback>
