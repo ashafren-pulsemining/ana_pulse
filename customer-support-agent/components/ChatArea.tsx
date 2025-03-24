@@ -241,7 +241,7 @@ const ConversationHeader: React.FC<ConversationHeaderProps> = ({
             <AvatarFallback>AI</AvatarFallback>
           </Avatar>
           <div>
-            <h3 className="text-sm font-medium leading-none">Pulse Ana</h3>
+            <h3 className="text-sm font-medium leading-none">Ana</h3>
             <p className="text-sm text-muted-foreground">Customer support</p>
           </div>
         </>
