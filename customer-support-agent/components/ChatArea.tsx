@@ -684,7 +684,7 @@ function ChatArea() {
             value={input}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
-            placeholder="Type your message here..."
+            placeholder="Ask Ana..."
             disabled={isLoading}
             className="resize-none min-h-[44px] bg-background  border-0 p-3 rounded-xl shadow-none focus-visible:ring-0"
             rows={1}
@@ -692,8 +692,8 @@ function ChatArea() {
           <div className="flex justify-between items-center p-3">
             <div>
               <Image
-                src="/claude-icon.svg"
-                alt="Claude Icon"
+                src="/pulse-text-grey-logo.svg"
+                alt="Pulse Icon"
                 width={0}
                 height={14}
                 className="w-auto h-[14px] mt-1"
