@@ -89,10 +89,10 @@ const TopNavBar = () => {
     <nav className="text-foreground p-4 flex justify-between items-center">
       <div className="font-bold text-xl flex gap-2 items-center">
         <Image
-          src={theme === "dark" ? "/pulsewhite.svg" : "/pulse.svg"}
+          src={theme === "dark" ? "/pulse-ana-text-logo-white.svg" : "/pulse-ana-text-logo.svg"}
           alt="Company Wordmark"
-          width={112}
-          height={20}
+          width={152}
+          height={60}
         />
       </div>
       <div className="flex items-center gap-2">
