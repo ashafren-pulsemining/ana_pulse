@@ -138,15 +138,6 @@ const TopNavBar = () => {
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
-        <Link
-          href="https://github.com/anthropics/anthropic-quickstarts"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button variant="outline" className="text-foreground">
-            Deploy your own
-          </Button>
-        </Link>
       </div>
     </nav>
   );

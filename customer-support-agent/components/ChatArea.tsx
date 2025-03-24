@@ -311,7 +311,7 @@ function ChatArea() {
   );
 
   const knowledgeBases: KnowledgeBase[] = [
-    { id: "your-knowledge-base-id", name: "Your KB Name" },
+    { id: "RUQ8W1QBC8", name: "pulse" },
     // Add more knowledge bases as needed
   ];
 
