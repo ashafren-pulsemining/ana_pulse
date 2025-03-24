@@ -140,7 +140,7 @@ const RightSidebar: React.FC = () => {
       >
         <CardHeader>
           <CardTitle className="text-sm font-medium leading-none">
-            Knowledge Base History
+            Knowledge Base History (Debug)
           </CardTitle>
         </CardHeader>
         <CardContent className="overflow-y-auto h-[calc(100%-45px)]">
