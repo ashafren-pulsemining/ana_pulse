@@ -169,7 +169,7 @@ const MessageContent = ({
     return (
       <div className="flex items-center">
         <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-gray-900 mr-2" />
-        <span>Thinking...</span>
+        <span>Just a moment...</span>
       </div>
     );
   }
@@ -233,7 +233,7 @@ const ConversationHeader: React.FC<ConversationHeaderProps> = ({
         <>
           <Avatar className="w-10 h-10 border">
             <AvatarImage
-              src="/pulse-round-dark.svg"
+              src="/pulse-round-gradient.svg"
               alt="AI Assistant Avatar"
               width={40}
               height={40}
@@ -588,7 +588,7 @@ function ChatArea() {
             <div className="flex flex-col items-center justify-center h-full animate-fade-in-up">
               <Avatar className="w-10 h-10 mb-4 border">
                 <AvatarImage
-                  src="/pulse-round-dark.svg"
+                  src="/pulse-round-gradient.svg"
                   alt="AI Assistant Avatar"
                   width={40}
                   height={40}
@@ -598,6 +598,7 @@ function ChatArea() {
               Hey, I'm ana! Your Pulse Copilot.
               </h2>
               <div className="space-y-4 text-sm">
+                {/*
                 <div className="flex items-center gap-3">
                   <HandHelping className="text-muted-foreground" />
                   <p className="text-muted-foreground">
@@ -619,6 +620,7 @@ function ChatArea() {
                     can assist you.
                   </p>
                 </div>
+                */}
               </div>
             </div>
           ) : (
@@ -639,7 +641,7 @@ function ChatArea() {
                     {message.role === "assistant" && (
                       <Avatar className="w-8 h-8 mr-2 border">
                         <AvatarImage
-                          src="/pulse-round-dark.svg"
+                          src="/pulse-round-gradient.svg"
                           alt="AI Assistant Avatar"
                         />
                         <AvatarFallback>AI</AvatarFallback>
@@ -649,7 +651,7 @@ function ChatArea() {
                       className={`p-3 rounded-md text-sm max-w-[65%] ${
                         message.role === "user"
                           ? "bg-primary text-primary-foreground"
-                          : "bg-muted border"
+                          : "bg-muted" // Add or remove border here
                       }`}
                     >
                       <MessageContent
