@@ -140,13 +140,13 @@ const RightSidebar: React.FC = () => {
       >
         <CardHeader>
           <CardTitle className="text-sm font-medium leading-none">
-            Knowledge Base History (Debug)
+          Retrieval-augmented generation (RAG)
           </CardTitle>
         </CardHeader>
         <CardContent className="overflow-y-auto h-[calc(100%-45px)]">
           {ragHistory.length === 0 && (
             <div className="text-sm text-muted-foreground">
-              The assistant will display sources here once finding them
+              Pulse RAG sources here once finding them
             </div>
           )}
           {ragHistory.map((historyItem, index) => (

@@ -78,7 +78,7 @@ const UISelector = ({
         }}
       >
         <LifeBuoyIcon className="w-4 h-4" />
-        <small className="text-sm leading-none">Talk to a human</small>
+        <small className="text-sm leading-none">Talk to Pulse Support</small>
       </Button>
     );
   }
